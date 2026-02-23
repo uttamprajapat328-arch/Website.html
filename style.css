@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5') no-repeat center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: darkorange;
+}
+
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.menu-card {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+
+.menu-card span {
+    font-weight: bold;
+    color: green;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
